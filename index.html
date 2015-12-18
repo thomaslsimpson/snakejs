@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+
+<html>
+
+	<head>
+		<script data-main="scripts/main" src="scripts/require.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+
+	<body>
+		<div id="top">
+			<div class='title'>
+				SNAKE <small>(With Abuse Mode)</small>
+				<button id='help'>Help</button>
+			</div>
+			<center>
+				<div class='setting'>Blocks Wide: <select id="bwide"></select></div>
+				<div class='setting'>Blocks High: <select id="bhigh"></select></div>
+				<div class='setting'>Difficulty: <select id="difficulty"></select></div>
+				<div class='setting'><button id="fstoggle">Toggle Fullscreen</button></div>
+			</center>
+		</div>
+		<div id="snake-container" ></div>
+		<div id="bottom">
+			<center>
+				<div class='info'><button id='playagain'>Restart</button></div>
+				<div class='info'><button id='resetgame'>Reset All Settings</button></div>
+				<div class='info'>Score: <input id='score' type=text size=8 value='0'></input></div>
+				<div class='info'><input id='msg' type=text size=32></input></div>
+			</center>
+		</div>
+		
+	</body>
+
+
+</html>
+

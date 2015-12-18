@@ -1,0 +1,94 @@
+body,html {
+	background-color: #ffffff;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#top {
+	width: 100%;
+	margin: auto;
+	font-family: Helvetica, Verdana;
+	font-size: 12pt;
+	border: dashed red 0px;
+}
+
+#top .setting {
+	display: inline;
+	margin: 10px;
+}
+
+#top .title {
+	width: 100%;
+	font-family: Lato, Helvetica, Verdana;
+	font-size: 18pt;
+	color: #FA7E86;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	padding-left: 8px;
+	border-bottom: solid #777777 1px;
+}
+
+
+#bottom input#msg {
+	font-family: Helvetica, Verdana;
+	font-size: 12pt;
+	color: #47cbdf;
+	border: solid #47CBDF 2px;
+	padding: 8px;
+	border-radius: 16px;
+}
+
+
+#bottom {
+	font-family: Helvetica, Verdana;
+	font-size: 12pt;
+}
+#bottom input#score {
+	font-family: Helvetica, Verdana;
+	font-size: 28px;
+	color: red;
+	border: solid #ff0000 2px;
+	padding: 4px;
+	border-radius: 16px;
+	text-align: center;
+}
+#bottom .info {
+	display: inline;
+	margin: 10px;
+}
+
+
+#snake-container {
+	margin:auto;
+	width: 90%;
+	height: 80%;
+	border: dashed red 0px;
+}
+
+#playagain {
+	background-color: #47cbdf;
+	color: white;
+	font-size: 14pt;
+	border-radius: 16px;
+	padding: 8px;
+}
+
+#help {
+	background-color: #47cbdf;
+	color: white;
+	font-size: 14pt;
+	border-radius: 16px;
+	padding: 8px;
+	position:absolute;
+	right: 10px;
+	top: 10px;
+}
+
+#helpinfo {
+	width: 50%;
+	margin: auto;
+	font-size: 18pt;
+	font-family: Helvetica, Verdana;
+}
