@@ -143,6 +143,11 @@ requirejs(['underscore', 'jquery', 'gamescores', 'snake'], function(_, $, gamesc
 //
 // Full screen 
 //
+// Note: this same code is all over the internet. I'm sure someone 
+// came up with it first. I left the names the same. If you think
+// this was your original work and want to claim it, let me know
+// and I'll credit you.
+//
 // ----------------------------------------------------------------
 
 function toggleFullScreen(){
@@ -186,6 +191,8 @@ function inFullScreen(){
 
 
 
+// ----------------------------------------------------------------
+// ----------------------------------------------------------------
 function msg(m){
 	$("#msg").val(m);
 }
